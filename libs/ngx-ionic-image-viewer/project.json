@@ -1,0 +1,32 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "ngx-ionic-image-viewer",
+  "projectType": "library",
+  "sourceRoot": "libs/ngx-ionic-image-viewer/src",
+  "prefix": "ion",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:ng-packagr",
+      "options": {
+        "tsConfig": "libs/ngx-ionic-image-viewer/tsconfig.lib.json",
+        "project": "libs/ngx-ionic-image-viewer/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ngx-ionic-image-viewer/tsconfig.lib.prod.json"
+        }
+      },
+      "outputs": [
+        "{workspaceRoot}/dist/ngx-ionic-image-viewer"
+      ]
+    },
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "options": {
+        "main": "libs/ngx-ionic-image-viewer/src/test.ts",
+        "tsConfig": "libs/ngx-ionic-image-viewer/tsconfig.spec.json",
+        "karmaConfig": "libs/ngx-ionic-image-viewer/karma.conf.js"
+      }
+    }
+  }
+}
