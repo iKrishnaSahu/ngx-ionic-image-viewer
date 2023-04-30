@@ -1,5 +1,5 @@
 {
-  "name": "ngx-ionic-image-viewer",
+  "name": "@ngx-ionic/image-viewer",
   "version": "0.7.5",
   "description": "An Ionic 4 Angular module to view & zoom on images and photos without any additional dependencies.",
   "keywords": [
@@ -24,19 +24,19 @@
     "modal",
     "slider"
   ],
-  "homepage": "https://github.com/simongolms/ngx-ionic-image-viewer.git",
+  "homepage": "https://github.com/iKrishnaSahu/ngx-ionic-image-viewer.git",
   "license": "MIT",
   "author": {
-    "name": "Simon Golms",
+    "name": "Simon Golms",
     "email": "development@gol.ms",
     "url": "https://gol.ms"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simongolms/ngx-ionic-image-viewer.git"
+    "url": "https://github.com/iKrishnaSahu/ngx-ionic-image-viewer.git"
   },
   "bugs": {
-    "url": "https://github.com/simongolms/ngx-ionic-image-viewer/issues"
+    "url": "https://github.com/iKrishnaSahu/ngx-ionic-image-viewer.git"
   },
   "dependencies": {
     "tslib": "^2.0.0"
