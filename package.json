@@ -36,7 +36,7 @@
     "start": "nx serve --project demo",
     "ionic:serve": "cd demo && ionic serve",
     "prebuild": "cp README.md libs/ngx-ionic-image-viewer/ ",
-    "build": "nx build --project ngx-ionic-image-viewer",
+    "build": "nx build --project ngx-ionic-image-viewer --configuration production",
     "build:watch": "nx build --watch",
     "demo:update": "cd demo && npm install ngx-ionic-image-viewer@latest --save && git commit -m \"chore(demo): update dependency\n\n- ngx-ionic-image-viewer@latest\" package*.json",
     "release": "dotenv -- bash -c \"cd libs/ngx-ionic-image-viewer && release-it --ci\"",
