@@ -38,6 +38,9 @@
   "bugs": {
     "url": "https://github.com/simongolms/ngx-ionic-image-viewer/issues"
   },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": ">=8.2.13",
     "@angular/core": ">=8.2.13",

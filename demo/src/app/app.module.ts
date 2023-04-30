@@ -8,7 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NgxIonicImageViewerModule } from 'ngx-ionic-image-viewer';
+import { NgxIonicImageViewerModule } from '../../../dist/ngx-ionic-image-viewer';
 
 @NgModule({
   declarations: [AppComponent],

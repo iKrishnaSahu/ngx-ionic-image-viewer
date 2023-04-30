@@ -6,9 +6,8 @@ import { NgxIonicImageViewerDirective } from './ngx-ionic-image-viewer.directive
 import { ViewerModalComponent } from './viewer-modal/viewer-modal.component';
 
 @NgModule({
-  declarations: [NgxIonicImageViewerComponent, NgxIonicImageViewerDirective, ViewerModalComponent],
-  imports: [CommonModule, IonicModule],
-  entryComponents: [ViewerModalComponent],
-  exports: [NgxIonicImageViewerComponent, NgxIonicImageViewerDirective, ViewerModalComponent]
+    declarations: [NgxIonicImageViewerComponent, NgxIonicImageViewerDirective, ViewerModalComponent],
+    imports: [CommonModule, IonicModule],
+    exports: [NgxIonicImageViewerComponent, NgxIonicImageViewerDirective, ViewerModalComponent]
 })
 export class NgxIonicImageViewerModule {}

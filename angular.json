@@ -10,10 +10,15 @@
       "prefix": "ion",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-ionic-image-viewer/tsconfig.lib.json",
             "project": "projects/ngx-ionic-image-viewer/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-ionic-image-viewer/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -23,16 +28,8 @@
             "tsConfig": "projects/ngx-ionic-image-viewer/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-ionic-image-viewer/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": ["projects/ngx-ionic-image-viewer/tsconfig.lib.json", "projects/ngx-ionic-image-viewer/tsconfig.spec.json"],
-            "exclude": ["**/node_modules/**"]
-          }
         }
       }
     }
-  },
-  "defaultProject": "ngx-ionic-image-viewer"
+  }
 }
