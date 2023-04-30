@@ -1,3 +1,36 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2023-04-30)
+
+
+### Bug Fixes
+
+* add deprecation information ([b20b7be](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/b20b7be))
+* console error when moving in a zoomed image ([b292e63](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/b292e63)), closes [#7](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/7)
+* ignore close button when swipeToClose is active ([969d7e8](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/969d7e8))
+* images behave correctly after being viewed several times ([445ad78](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/445ad78)), closes [#14](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/14) [#16](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/16)
+* omit peer dependencies warning ([ac64084](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/ac64084)), closes [#43](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/43) [#46](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/46)
+* remove console log output ([65cb629](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/65cb629))
+* srcFallback not working on controller ([a0b0bfc](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/a0b0bfc)), closes [#28](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/28)
+* styling of the component via css ([a8919d6](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/a8919d6))
+* throwing error for preventDefault in swiper.bundle ([68bdadb](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/68bdadb)), closes [#2](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/2)
+* when specified `alt` the image was not showen in some cases ([d7af54c](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/d7af54c))
+* **directive:** failing production build ([d56b420](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/d56b420))
+* **directive:** open viewer in fullscreen on desktop ([6e078b9](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/6e078b9))
+
+
+### Features
+
+* add props scheme to set color scheme ([15d35e9](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/15d35e9))
+* add props slideOptions to pass to the swiper instance ([9429408](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/9429408))
+* add props srcHighRes to display high-resolution image ([efe182c](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/efe182c))
+* apply additional class for custom CSS ([fa941a2](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/fa941a2))
+* set the size of the title ([8bdac98](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/8bdac98))
+* show alternative image on error ([8bb29a4](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/8bb29a4)), closes [#13](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/13)
+* swipe down to close the viewer ([ebc756c](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/ebc756c))
+* the viewer-modal can be used as a controller component ([6d8fb45](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/6d8fb45))
+* **directive:** use directive on img element ([b162aad](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/b162aad)), closes [#10](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/issues/10)
+* use the module as ionImgViewer directive ([63decaf](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/commit/63decaf))
+
 <a name="0.7.5"></a>
 ## [0.7.5](https://github.com/simongolms/ngx-ionic-image-viewer/compare/v0.7.4...v0.7.5) (2022-01-29)
 
