@@ -1,33 +1,10 @@
-**ℹ️ Please note that this package has reached its end. After getting into the React world 2018, I lost the contact into the Angular Ecosystem. With Ionic 6, Slider.js will also be split off, which will probably make this package incompatible for now. Unfortunately I don't have the time to develop this package further according to the demands - thank you for your trust and responses, I appreciated it very much. Feel free to fork this package and work on a successor. You will find here a good tutorial how to create your own image viewer, which is based on the same approach: https://www.youtube.com/watch?v=VCUpRkRi00w**
+> This repo is a fork of [ngx-ionic-image-viewer](https://github.com/SimonGolms/ngx-ionic-image-viewer). This repo uses latest version of angular and is ivy compatible
 
 # ngx-ionic-image-viewer <!-- omit in toc -->
 
-<p>
-  <a href="https://www.npmjs.com/package/ngx-ionic-image-viewer" target="_blank">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/ngx-ionic-image-viewer.svg" />
-  </a>
-  <a href="https://github.com/simongolms/ngx-ionic-image-viewer#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/simongolms/ngx-ionic-image-viewer/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no-red.svg" />
-  </a>
-  <a href="https://conventionalcommits.org" target="_blank">
-    <img alt="Conventional Commits" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg" />
-  </a>
-  <a href="https://github.com/conventional-changelog/standard-version" target="_blank">
-    <img alt="Standard Version" src="https://img.shields.io/badge/release-standard%20version-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/simongolms/ngx-ionic-image-viewer/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/simongolms/ngx-ionic-image-viewer" />
-  </a>
-</p>
-
-> An Ionic 4 Angular module to view & zoom on images and photos without any additional dependencies.
+> An Ionic Angular module to view & zoom on images and photos without any additional dependencies.
 
 ## Demo <!-- omit in toc -->
-
-[Live Demo](https://ionic4-image-viewer-example.netlify.com) | [Stackblitz](https://stackblitz.com/github/SimonGolms/ngx-ionic-image-viewer/tree/master/demo)
 
 ![ngx-ionic-image-viewer-showcase](https://github.com/SimonGolms/ngx-ionic-image-viewer/raw/master/docs/showcase.gif)
 
