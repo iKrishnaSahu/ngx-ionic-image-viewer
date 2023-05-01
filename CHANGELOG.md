@@ -1,3 +1,6 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/compare/v1.1.9...v2.0.0) (2023-05-01)
+
 <a name="1.1.9"></a>
 ## [1.1.9](https://github.com/iKrishnaSahu/ngx-ionic-image-viewer/compare/v1.1.8...v1.1.9) (2023-05-01)
 
